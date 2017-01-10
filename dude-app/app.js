@@ -27,7 +27,7 @@ function DudeController($q){
   }
 
   task("dude")  // returns a promise
-    // .then(task) // returns a promise
+    .then(task) // returns a promisess
     .then(success, error);
 
   function success(resolveReturnValue){
